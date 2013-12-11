@@ -17,12 +17,14 @@ class Scraper
         quote = html.search("p")
         quote1 = quote.map {|name| name.text}
         quote1.map! do |string|
-            string.delete "\r\n"
+            string.delete! "\r\n"
+            string.gsub("\u0093", "")
+            string.gsub("\u0094", "")
         end
         quote1.delete_if{|x| x == "" }
-        ap quote1
+        quote1
     end    
 end  
 
-my_scraper = Scraper.new("http://jpetrie.myweb.uga.edu/bulldog.html")
-my_scraper.get_quote      
+ # my_scraper = Scraper.new("http://jpetrie.myweb.uga.edu/bulldog.html") 
+ # ap my_scraper.get_quote     

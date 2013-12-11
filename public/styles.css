@@ -1,0 +1,44 @@
+/*#####Styling#########*/
+
+body {
+  background-color: linen;
+  font-family: helvetica, arial, sans-serif;
+  font-size: 35px;
+}
+
+.message {
+  width: 50%;
+  margin: 50px 50px 5px;
+  float: center;
+  border-right: 5px solid Red;
+  padding: 0 75px 75px 0;
+}
+
+.right-content {
+  float:left;
+  margin: 50px;
+}
+
+.button {
+  background-color: Gray;
+  color: LightGray;
+  width: 250px;
+  height: 45px;
+  font-size: 25px;
+  margin: auto;
+  border-radius: 25px;
+}
+
+.button:hover {
+  background-color: LightGray;
+  color: Gray;
+}
+
+p {
+  text-align: center;
+  padding-top: 7px;
+}
+
+a {
+  text-decoration: none
+}
