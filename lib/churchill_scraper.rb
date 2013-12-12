@@ -1,7 +1,5 @@
 require 'open-uri'
 require 'nokogiri'
-require 'ap'
-require 'debugger'
 
 class Scraper
 
