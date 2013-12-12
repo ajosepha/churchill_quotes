@@ -16,7 +16,7 @@ body {
 }
 
 .message {
-  width: 50%;
+  width: 30%;
   margin: 50px 50px 5px;
   float: left;
   border-right: 5px solid Red;
