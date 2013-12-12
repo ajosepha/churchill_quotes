@@ -1,6 +1,8 @@
 require 'bundler'
 require 'nokogiri'
+
 Bundler.require
+
 require './lib/churchill_scraper'
 
 module Churchill_Generator
