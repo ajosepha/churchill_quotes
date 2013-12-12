@@ -1,21 +1,53 @@
+/*#####Fixes#########*/
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+ 
+.clearfix {
+    display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+    display: block;
+}
+ 
+* html .clearfix {
+    height: 1%;
+}
+
+
 /*#####Styling#########*/
 
 body {
-  background-color: linen;
+  background-color: black;
   font-family: helvetica, arial, sans-serif;
   font-size: 35px;
+  color: white;
+}
+
+.header {
+  border-bottom: 5px solid Black;
+  float: top;
+  font-size: 120%
 }
 
 .message {
   width: 50%;
   margin: 50px 50px 5px;
-  float: center;
+  float: left;
   border-right: 5px solid Red;
   padding: 0 75px 75px 0;
+  font-size: 75%;
 }
 
 .right-content {
-  float:left;
+  float:right;
+  float:top;
   margin: 50px;
 }
 
