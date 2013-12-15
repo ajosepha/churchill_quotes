@@ -1,5 +1,4 @@
-require 'bundler'
-require 'nokogiri'
+
 
 Bundler.require
 
