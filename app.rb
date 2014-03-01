@@ -14,7 +14,7 @@ module Churchill_Generator
         @images = Dir["./public/images/*"].map {|image| "/images/#{Pathname.new(image).basename}"}
     end 
     
-    get '/home' do
+    get '/' do
       "here are some quotes and pictures"
       @quote = @quote_array.sample
       @image = @images.sample
