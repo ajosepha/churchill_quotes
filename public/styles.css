@@ -35,11 +35,12 @@ body {
   font-size: 35px;
 }
 
-
+.head{
+  float: left;
+  display: inline-block;
+}
 .gif {
   float: right;
-  width: 48%;
-  vertical-align: bottom;
 }
 
 .img img{
