@@ -3,7 +3,6 @@ ruby '2.0.0'
 
 gem 'sinatra'
 gem "nokogiri"
-gem "awesome_print"
 # gem "open-uri"
 
 group :development do
