@@ -1,12 +1,30 @@
-
-<div class="header"><p>Welcome to the Winston Churchill quote generator</p></div>
-
-<div class="message"><%= @quote %></div>
-<div class="right-content">
-	 <img src="<%= @image %>">
-    <div class="button">
-    	 <a href="/"> 
-      <p>Click to refresh</p>
-    </div>
-  </a>
+<div class="container">
+<div class = "header">
+  <p>Welcome to the Winston Churchill quote generator</p>
 </div>
+
+
+<div class="message">
+  <div class="quote">
+    <img src="headline/winstonflag.gif">
+  <%= @quote %></br>
+</div>
+  <div class="size">
+    <div class="button">
+      <a href="/">Click to refresh</a>
+    </div>
+  </div>
+</div>
+
+<div class="gif">
+  <div class="img">
+	  <img src="<%= @image %>">
+  </div>
+
+</div>
+
+
+  
+
+
+
